@@ -30,6 +30,8 @@ INSERT INTO marcas (nome, site, telefone) VALUES
 ('Shure', 'shure.com.br', '0800-970-3355');
 
 SELECT * FROM marcas;
+
+EXEC sp_help 'marcas';
 -- 6. INSERÇÃO DE PRODUTOS
 INSERT INTO produtos (nome, preco, estoque, id_marca) VALUES
 ('iPhone 16 Pro Apple (256GB) - Titânio Preto', 9299.99, 100, 1),
